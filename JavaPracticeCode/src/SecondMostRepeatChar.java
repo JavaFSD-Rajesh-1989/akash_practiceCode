@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
-public class Code29 {
+public class SecondMostRepeatChar {
+
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter your String:");
@@ -24,4 +25,5 @@ public class Code29 {
 		}
 		System.out.print("The Second Most occurring character: " + (char) (sec_max));
 	}
+
 }
